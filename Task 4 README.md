@@ -1,24 +1,17 @@
-# Project 4: E-Commerce Performance Dashboard
+## Project 4: Data Visualization & Dashboarding
 **DecodeLabs Data Analytics Internship**
 
 ## Overview
-This project focuses on analyzing 1,200 raw e-commerce orders to uncover key pricing trends, traffic sources, customer behavior patterns, and high-value transactional outliers. The cleaned insights were aggregated into an interactive, executive-grade spreadsheet dashboard designed to drive operational and marketing decisions.
+Transformed 1,200 cleaned e-commerce orders into an interactive, boardroom-ready executive dashboard to translate raw transactional metrics into clear, visual business insights.
 
 ## Key Findings
-* **Revenue Distribution:** Right-skewed `TotalPrice` distribution, indicating a high concentration of standard orders balanced by high-value transactions (Mean: **$1,053.97** vs. Median: **$823.62**).
-* **Outlier Tracking:** Identified **8 statistical outliers** exceeding **$3,330.41**, heavily driven by major transactions such as order `ORD200789` (**$3,456.40**).
-* **Product Performance:** * 👑 **Chairs** drive the highest sales revenue (**$48,660.98** across 251 cart items).
-  * 📉 **Phones** represent the lowest revenue category (**$28,023.26** across 165 cart items).
-* **Acquisition & Payments:** **Instagram** serves as the primary driver of referral acquisition traffic, while **Online Banking / Credit Cards** lead as the most utilized payment options.
+-> Total platform revenue achieved a baseline of $1,264,761.96 across all fulfillment categories.
+-> Total volume captured exactly 1,200 unique order rows with 6,582 total units sold.
+-> Printers and Chairs dominate the product sales mix as the top macro revenue drivers.
+-> Slicer implementation allows stakeholder tracking of key metrics by fulfillment status in under 5 seconds.
 
-## Method & Workflow
-1. **Data Cleaning & Preparation:** Standardized dates into a clean `YYYY-MM-DD` layout, handled missing/null tracking parameters, eliminated duplicates, and enforced numerical values for transactional precision.
-2. **Descriptive Statistics:** Computed central tendency metrics (Mean, Median) and implemented an **IQR-based (Interquartile Range) outlier detection funnel** in Excel.
-3. **Pivot Calculations:** Aggregated raw transactional records into summarized categorical data to extract total items sold and overall total revenue per product bucket.
-4. **Interactive Visualization:** Designed a professional, clean canvas dashboard using an executive color palette (Charcoal & Steel Blue) with gridlines disabled, structured with explicit KPI Summary Cards, Pivot Charts, and interactive Slicers.
+## Method
+Engineered a 3-sheet workbook framework separating raw data from the calculation backend. Structured 3 custom KPI highlight cards, built a sorted horizontal bar chart to eliminate label cognitive friction, and integrated multi-pivot report connections to a dynamic status slicer.
 
 ## Tools Used
-* **Microsoft Excel:** Pivot Tables, descriptive
-
-## Project Deliverables 
-https://github.com/GraceKwelle/Decodelabs_tasks/blob/6fb1dbbf17813e6734e4788e9343fffcd56ed275/Grace%20Anosike%20Decodelabs%20Project%204.xlsx
+Microsoft Excel 
